@@ -44,7 +44,7 @@ const CustomButton = ({
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.98 }}
       className={cn(buttonVariants({ variant, size, className }))}
-      {...props}
+      {...props as any}  // Using type assertion to fix the type compatibility issue
     />
   );
 };
