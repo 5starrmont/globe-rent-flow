@@ -25,7 +25,8 @@ import {
   Lock,
   Users,
   Building,
-  User
+  User,
+  Check
 } from 'lucide-react';
 
 const Index = () => {
